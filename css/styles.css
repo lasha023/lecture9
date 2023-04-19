@@ -1,0 +1,58 @@
+
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+}
+
+ul{
+	display: flex;
+	justify-content: space-between;
+	gap: 47px;
+	padding: auto;
+	color: #303134;
+}
+
+.div1{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	padding: 215px;
+	background-image: url(
+		../images/back.jpeg);
+	background-size: 1460px 650px;
+	background-repeat: no-repeat;
+}
+h1{
+	color: white;
+	font-size: 60px;
+}
+
+h2{
+	color: white;
+	font-size: 40px;
+	padding: 100px;
+}
+
+p{
+	font-size: 15px;
+	color: grey;
+}
+
+.div2{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	flex-flow: wrap;
+	align-content: stretch;
+}
+
+.div4{
+	margin-left: 216px;
+}
